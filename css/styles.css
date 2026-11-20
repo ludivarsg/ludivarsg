@@ -365,21 +365,6 @@ textarea:focus {
     outline: 1px solid var(--orange);
     border-color: var(--orange);
 }
-.form-note {
-    grid-column: 1/-1;
-    color: #8993a1;
-    font-size: 0.78rem;
-    margin: 0;
-}
-.success {
-    display: none;
-    grid-column: 1/-1;
-    padding: 14px;
-    background: #17271f;
-    border: 1px solid #315a43;
-    border-radius: 5px;
-    color: #b9f1ca;
-}
 footer {
     border-top: 1px solid var(--line);
     padding: 28px 0;
@@ -438,9 +423,7 @@ footer {
     form {
         grid-template-columns: 1fr;
     }
-    .field.full,
-    .form-note,
-    .success {
+    .field.full {
         grid-column: auto;
     }
     .nav {

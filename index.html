@@ -155,7 +155,8 @@
                     <p><strong>LUDIVAR</strong><br>Singapore</p>
                 </div>
 
-                <form id="enquiry">
+                <form id="enquiry" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a93da263-7dc7-4a38-933b-04aa9fa36544">
                     <div class="field">
                         <label for="name">Your name *</label>
                         <input id="name" name="name" required placeholder="Name">
@@ -190,13 +191,6 @@
                         <label for="message">Tell us a little about your plans *</label>
                         <textarea id="message" name="message" required
                             placeholder="Share your preferred date, group size, event idea or questions..."></textarea>
-                    </div>
-                    <p class="form-note">
-                        Prototype form: submissions are not sent anywhere yet. Connect this form to your business
-                        email or booking platform before publishing.
-                    </p>
-                    <div class="success" id="success" role="status">
-                        Thanks — the form demo is working. Connect a form service to receive real enquiries.
                     </div>
                     <div class="field full">
                         <button class="btn" type="submit">Submit enquiry&nbsp; ↗</button>
